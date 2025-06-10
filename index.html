@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name = "robots" content = "noindex, nofollow"/>
+    <meta name = "Description" content = "Selling Pizzas Hot n Ready!">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1"/>
+    <!-- Add CSS -->
+    <link rel = "stylesheet" href="./style.css"/>
+    <title>Cloud Pizzas</title>
+</head>
+<body>
+<header>
+    <!-- No semantic element for logo therefor div-->
+    <div>
+        <a href="index.html">
+            <img src="./Pizza.png" alt="Pizza Logo">
+        </a>
+    </div>
+    <nav>
+        <menu>
+            <li><a href="#">Home </a></li>
+            <li><a href="#">Specials </a></li>
+            <li><a href="#">Catering </a></li>
+            <li><a href="#">Build Your Own </a></li>
+            <li><a href="#">Contact Us</a></li>
+        </menu>
+    </nav>
+</header>
+<main>
+    <section>
+        <h1> Welcome, to the Hundred-Year Home of Pizza </h1>
+        <p>Where the dough hits the oven.</p>
+    </section>
+    <!-- Below is the form section for logging in and giving your location in order for the
+    pizzaman to know where your at and deliver it in short order-->
+    <form>
+        <label for="firstname"> First Name:</label>
+        <input  type="text" id="firstname" name="firstname"><br>
+        <label  for="lastname">Last Name:</label>
+        <input  type="text" id="lastname" name="lastname"><br>
+        <label  for="Phone number">Phone #:</label>
+        <input  type="text" id="Phone number" name="Phone number"><br>
+        <label  for="Address">Address:</label>
+        <input type="text" id="Address" name="Address"><br>
+        <label for="Email">Email:</label>
+        <input type="text" id="Email" value="Email">
+        <label  id="Submit"></label><br>
+        <input type="Submit" value="Submit">
+        <p>I agree to the terms and conditions<label>
+            <input type="checkbox">
+        </label></p>
+    </form>
+    <section id="section1">
+        <!-- This parts where the magic happens, and the choices are made, this Section is for selection of
+        pizza type, size, toppings, number etc, set into 1 section, to keep the customer engaged and not
+        searching-->
+        <div>
+            <h3> Satisfy Your Craving </h3>
+            <p> Select your order below </p>
+        </div>
+        <div>
+            <!-- Using radio buttons to keep things concise, and singular-->
+            <h3> Please select your size </h3>
+            <input  type="radio" id="size0" name="Pizza" value="Party Size">
+            <label  for="size0">Party Size</label>
+            <input  type="radio" id="size1" name="Pizza" value="Extra Large">
+            <label for="size1">Extra Large</label>
+            <input  type="radio" id="size2" name="Pizza" value="Large">
+            <label  for="size2"> Large</label>
+            <input  type="radio" id="size3" name="Pizza" value="Medium>">
+            <label for="size3"> Medium</label>
+            <input type="radio" id="size4" name="Pizza" value="Small">
+            <label  for="size4"> Small</label>
+        </div>
+    </section>
+    <section id="section2">
+        <div>
+            <!-- For practicality and the sake of keeping everything orderly, a dropdown menu is used here-->
+            <h3>Please select how many</h3>
+            <label>
+                <select>
+                    <option>
+                        1
+                        <option>
+                        2
+                        <option>
+                        3
+                        <option>
+                        4
+                        <option>
+                        5
+                        <option>
+                        6
+                        <option>
+                        7
+                        <option>
+                        8
+                        <option>
+                        9
+                        <option>
+                        10
+                    </option>
+                </select>
+            </label>
+        </div>
+        <div>
+            <h3> Select your pizza </h3>
+            <label>
+                <select>
+                    <option>
+                        Plain
+                        <option>
+                        Meat lovers
+                        <option>
+                        Hawaiian
+                        <option>
+                        Pepperoni
+                        <option>
+                        All In One
+                    </option>
+                </select>
+            </label>
+        </div>
+        <div>
+            <h3>Select Toppings</h3>
+            <label>
+                <select>
+                    <option>
+                        None
+                    <option>
+                       Pepperoni
+                        <option>
+                         Cheese
+                        <option>
+                         Pineapple
+                        <option>
+                         Meat
+                    </option>
+                </select>
+            </label>
+            </div>
+            <div>
+            <label>
+                <select>
+                    <option>
+                        None
+                    <option>
+                        Pepperoni
+                    <option>
+                        Cheese
+                    <option>
+                        Pineapple
+                    <option>
+                        Meat
+                    </option>
+                </select>
+            </label>
+        </div>
+        <div>
+            <label>
+                <select>
+                    <option>
+                        None
+                    <option>
+                        Pepperoni
+                    <option>
+                        Cheese
+                    <option>
+                        Pineapple
+                    <option>
+                        Meat
+                    </option>
+                </select>
+            </label>
+        </div>
+        <div>
+            <label>
+            <select>
+                <option>
+                None
+                <option>
+                    Pepperoni
+                <option>
+                    Cheese
+                <option>
+                    Pineapple
+                <option>
+                    Meat
+                </option>
+            </select>
+            </label>
+        </div>
+        <div>
+            <label>
+                <select>
+                    <option>
+                        None
+                    <option>
+                        Pepperoni
+                    <option>
+                        Cheese
+                    <option>
+                        Pineapple
+                    <option>
+                        Meat
+                    </option>
+                </select>
+            </label>
+        </div>
+
+    </section>
+    <section id="section3">
+        <div>
+            <label for="No Toppings">No toppings</label>
+            <label for="no Toppings"></label><input type="checkbox" id="no Toppings" value="no Toppings">
+        </div>
+    </section>
+
+    <div>
+        <section>
+        <h3>Finished?</h3>
+        <label  for="Add to cart!"></label>
+        <input type="button" id="Add to cart!" value="Add To Cart!">
+        </section>
+    <h3>Do you want to order over phone? Contact Us!</h3>
+    <menu>
+        <li><a href="#">Contact us!</a></li>
+    </menu>
+    </div>
+    <!-- All images used are Ai generated and do feature any real people, at least, not on purpose. The
+    images below are strictly for flare, and user-friendly decoration.-->
+    <section id="images">
+        <img src="ancient%20oven.png" alt="Ancient oven">
+        <img src="pizzapeel.png" alt="Promise">
+    </section>
+</main>
+<footer>
+    <h6>Thank you for visiting!</h6>
+</footer>
+</body>
+</html>
